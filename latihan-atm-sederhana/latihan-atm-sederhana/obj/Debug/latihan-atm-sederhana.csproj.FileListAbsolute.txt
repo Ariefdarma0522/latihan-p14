@@ -1,0 +1,6 @@
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\bin\Debug\latihan-atm-sederhana.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\bin\Debug\latihan-atm-sederhana.pdb
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\obj\Debug\latihan-atm-sederhana.csproj.AssemblyReference.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\obj\Debug\latihan-atm-sederhana.csproj.CoreCompileInputs.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\obj\Debug\latihan-atm-sederhana.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-atm-sederhana\latihan-atm-sederhana\obj\Debug\latihan-atm-sederhana.pdb
