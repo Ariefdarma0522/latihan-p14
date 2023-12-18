@@ -1,0 +1,6 @@
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\bin\Debug\latihan-persiapan-ujian1-volume-balok.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\bin\Debug\latihan-persiapan-ujian1-volume-balok.pdb
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\obj\Debug\latihan-persiapan-ujian1-volume-balok.csproj.AssemblyReference.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\obj\Debug\latihan-persiapan-ujian1-volume-balok.csproj.CoreCompileInputs.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\obj\Debug\latihan-persiapan-ujian1-volume-balok.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-persiapan-ujian1-volume-balok\latihan-persiapan-ujian1-volume-balok\obj\Debug\latihan-persiapan-ujian1-volume-balok.pdb
