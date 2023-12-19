@@ -4,3 +4,9 @@ D:\kuliah\Dasar-Pemrograman s1\latihan-p13-menghitung-luas-bangundatar\latihan-p
 D:\kuliah\Dasar-Pemrograman s1\latihan-p13-menghitung-luas-bangundatar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.csproj.CoreCompileInputs.cache
 D:\kuliah\Dasar-Pemrograman s1\latihan-p13-menghitung-luas-bangundatar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.exe
 D:\kuliah\Dasar-Pemrograman s1\latihan-p13-menghitung-luas-bangundatar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.pdb
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\bin\Debug\latihan-p13-menghitung-luas-bangundatar.exe
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\bin\Debug\latihan-p13-menghitung-luas-bangundatar.pdb
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.csproj.AssemblyReference.cache
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.csproj.CoreCompileInputs.cache
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.exe
+D:\arief darmawan 8020230033\latihan-p14\latihan-luas-bangun-datar\latihan-p13-menghitung-luas-bangundatar\obj\Debug\latihan-p13-menghitung-luas-bangundatar.pdb

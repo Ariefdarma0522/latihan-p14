@@ -35,7 +35,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                         Console.WriteLine(nama);
                         Console.Write("Masukkan jari2 dari lingkarang = ");
                         jari2 = int.Parse(Console.ReadLine());
-                        hasil = Math.PI * Math.Pow(jari2, 2);
+                        hasil = Math.PI * Math.Pow(jari2, 2); // Rumus lingkarang : phi x jari-jari^2
                         Console.Write($"Luas tanah lingkaran = {hasil} cm2");
                         break;
                     case 2:
@@ -45,7 +45,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                         panjang = int.Parse(Console.ReadLine());
                         Console.Write("Masukkan tinggi dari segitiga : ");
                         tinggi = int.Parse(Console.ReadLine());
-                        hasil = 0.5 * panjang * tinggi;
+                        hasil = (1.0/2.0) * panjang * tinggi; // Rumus segitiga : 1/2 x alas x tinggi
                         Console.WriteLine($"Luas dari tanah segitiga : {hasil} cm2");
                         break;
                     case 3:
@@ -57,7 +57,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                         lebar = int.Parse(Console.ReadLine());
                         Console.Write("Masukkan tinggi dari trapesium : ");
                         tinggi = int.Parse(Console.ReadLine());
-                        hasil = 0.5 * tinggi * (panjang * lebar);
+                        hasil = (1.0/2.0) * tinggi * (panjang * lebar); // Rumus 1/2 x tinggi (sisiA x sisiB)
                         Console.WriteLine($"Luas dari tanah trapesium : {hasil} cm2");
                         break;
                     case 4:
@@ -67,7 +67,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                         panjang = int.Parse(Console.ReadLine());
                         Console.Write("Masukkan lebar : ");
                         lebar = int.Parse(Console.ReadLine());
-                        hasil = panjang * lebar;
+                        hasil = panjang * lebar; // Rumus persegi panjang : panjang x lebar
                         Console.WriteLine($"Luas tanah persegi panjang : {hasil} cm2");
                         break;
                     case 5:
@@ -77,7 +77,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                         panjang = int.Parse(Console.ReadLine());
                         Console.Write("Masukkan tinggi : ");
                         tinggi = int.Parse(Console.ReadLine());
-                        hasil = panjang * tinggi;
+                        hasil = panjang * tinggi; // panjang = alas jajar genjang , rumus jajar genjang alas x tinggi
                         Console.WriteLine($"Luas tanah jajar genjang : {hasil} cm2");
                         break;
                 }

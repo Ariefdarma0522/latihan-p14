@@ -1,0 +1,6 @@
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\bin\Debug\latihang-aplikasi-sederhana.exe
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\bin\Debug\latihang-aplikasi-sederhana.pdb
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\obj\Debug\latihang-aplikasi-sederhana.csproj.AssemblyReference.cache
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\obj\Debug\latihang-aplikasi-sederhana.csproj.CoreCompileInputs.cache
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\obj\Debug\latihang-aplikasi-sederhana.exe
+D:\arief darmawan 8020230033\latihan-p14\latihan-kalkulator-sederhana\latihang-aplikasi-sederhana\latihang-aplikasi-sederhana\obj\Debug\latihang-aplikasi-sederhana.pdb
