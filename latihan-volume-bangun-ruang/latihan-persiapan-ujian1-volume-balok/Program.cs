@@ -45,7 +45,7 @@ namespace latihan_persiapan_ujian1_volume_balok
                         Console.Write("Masukkan Tinggi : ");
                         tinggi = int.Parse(Console.ReadLine());
                         // Untuk mencari hasil & manampilkan hasil dari volume
-                        hasil = panjang * lebar * tinggi;
+                        hasil = panjang * lebar * tinggi; // Rumus balok : panjang x lebar x tinggi
                         Console.WriteLine($"Volume Balok = {hasil} cm3");
                         break;
                     case 2:
@@ -56,7 +56,7 @@ namespace latihan_persiapan_ujian1_volume_balok
                         Console.Write("masukkan ukuran sisinya : ");
                         panjang = int.Parse(Console.ReadLine());
                         // Untuk mencari hasil & menampilkan hasil dari kubus
-                        hasil = Math.Pow(panjang, 3);
+                        hasil = Math.Pow(panjang, 3); // Rumus kubus : sisi^3
                         Console.WriteLine($"Volume Kubus = {hasil} cm3");
                         break;
                     case 3:
@@ -70,7 +70,7 @@ namespace latihan_persiapan_ujian1_volume_balok
                         Console.Write("Masukkan tinggi dari kerucut : ");
                         tinggi = int.Parse(Console.ReadLine());
                         // Untuk mencari hasil & menampilkan hasil
-                        hasil = Math.PI * Math.Pow(jari2, 2) * tinggi;
+                        hasil = Math.PI * Math.Pow(jari2, 2) * tinggi; // Rumus Tabung : phi x jari-jari^2 x tinggi
                         Console.WriteLine($"Volume dari Tabung = {hasil} cm3");
                         break;
                     case 4:
@@ -81,7 +81,7 @@ namespace latihan_persiapan_ujian1_volume_balok
                         Console.Write("Masukkan Jari-jari dari bola : ");
                         jari2 = int.Parse(Console.ReadLine());
                         // Untuk mencari hasil & menampilkan hasil dari bangun ruang bola
-                        hasil = (4.0 /3.0) * Math.PI * Math.Pow(jari2, 3);
+                        hasil = (4.0 /3.0) * Math.PI * Math.Pow(jari2, 3); // Rumus Bola : 4/3 x phi x jari-jari^3
                         Console.WriteLine($"Volume dari bola = {hasil} cm3");
                         break;
                     case 5:
@@ -95,7 +95,7 @@ namespace latihan_persiapan_ujian1_volume_balok
                         Console.Write("Masukkan tinggi dari kerucut : ");
                         tinggi = int.Parse(Console.ReadLine());
                         // Untuk mencari hasil dari kerucut & menampilkan hasil
-                        hasil = (1.0 / 3.0) * Math.PI * Math.Pow(jari2, 2) * tinggi;
+                        hasil = (1.0 / 3.0) * Math.PI * Math.Pow(jari2, 2) * tinggi; // Rumus kerucut : 1/3 x phi x jari-jari^2 x tinggi
                         Console.WriteLine($"Volume dari kerucut = {hasil}");
                         break;
 
