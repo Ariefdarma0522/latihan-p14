@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace latihan_atm_sederhana
 {
@@ -28,24 +25,26 @@ namespace latihan_atm_sederhana
             switch (pilihan)
             {
                 case 1:
-                    Console.WriteLine($"Saldo anda adalah : {saldo}");
+                    Console.WriteLine("Saldo anda adalah : {0:C2}", saldo);
                     break;
                 case 2:
                     Console.Write("Masukkan jumlah yang akan disetor : ");
                     setoran = int.Parse(Console.ReadLine());
                     saldo += setoran;
-                    Console.WriteLine($"Saldo akun anda yang telah diperbarui : {saldo}");
+                    Console.WriteLine("Saldo akun anda yang telah diperbarui : {0:C2}", saldo);
                     break;
                 case 3:
                     Console.Write("Masukkan jumlah yang akan ditarik : ");
                     penarikan = int.Parse(Console.ReadLine());
+
                     if (penarikan > saldo)
                     {
                         Console.WriteLine("Saldo anda tidak cukup!!!");
-                    } else
+                    }
+                    else
                     {
                         saldo -= penarikan;
-                        Console.WriteLine($"Saldo akun anda yang telah diperbarui : {saldo}");
+                        Console.WriteLine("Saldo akun anda yang telah diperbarui : {0:C2}", saldo);
                     }
                     break;
             }
