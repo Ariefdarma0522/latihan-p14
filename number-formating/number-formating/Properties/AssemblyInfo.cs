@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("latihan-atm-sederhana")]
+[assembly: AssemblyTitle("number-formating")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("latihan-atm-sederhana")]
+[assembly: AssemblyProduct("number-formating")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8687b0c5-5f0c-42f3-82cd-038d1ca6d5cd")]
+[assembly: Guid("96012ac5-bb9c-4efb-bdaa-70f4117b66f0")]
 
 // Version information for an assembly consists of the following four values:
 //

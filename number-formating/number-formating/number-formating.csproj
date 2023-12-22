@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8687B0C5-5F0C-42F3-82CD-038D1CA6D5CD}</ProjectGuid>
+    <ProjectGuid>{96012AC5-BB9C-4EFB-BDAA-70F4117B66F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>latihan_atm_sederhana</RootNamespace>
-    <AssemblyName>latihan-atm-sederhana</AssemblyName>
+    <RootNamespace>number_formating</RootNamespace>
+    <AssemblyName>number-formating</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,11 +42,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\.editorconfig">
-      <Link>.editorconfig</Link>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

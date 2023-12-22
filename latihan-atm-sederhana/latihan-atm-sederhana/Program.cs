@@ -9,7 +9,7 @@ namespace latihan_atm_sederhana
             // Buatlah aplikasi atm sederhana
 
             int pilihan = 0;
-            float saldo, penarikan, setoran;
+            double saldo, penarikan, setoran;
 
             Console.Write("Masukkan saldo akun anda : ");
             saldo = int.Parse(Console.ReadLine());
@@ -25,12 +25,13 @@ namespace latihan_atm_sederhana
             switch (pilihan)
             {
                 case 1:
-                    Console.WriteLine("Saldo anda adalah : {0:C2}", saldo);
+                    Console.WriteLine($"Saldo anda adalah {saldo:c}");
                     break;
                 case 2:
                     Console.Write("Masukkan jumlah yang akan disetor : ");
                     setoran = int.Parse(Console.ReadLine());
                     saldo += setoran;
+                    Console.WriteLine($"Anda melakukan setoran sebesar : {setoran:C2}");
                     Console.WriteLine("Saldo akun anda yang telah diperbarui : {0:C2}", saldo);
                     break;
                 case 3:
@@ -44,12 +45,13 @@ namespace latihan_atm_sederhana
                     else
                     {
                         saldo -= penarikan;
-                        Console.WriteLine("Saldo akun anda yang telah diperbarui : {0:C2}", saldo);
+                        Console.WriteLine($"Anda telah menarik saldo dari akun anda sebesari : {penarikan:c}");
+                        Console.WriteLine("Sisa saldo anda telah diperbaruai : {0:C2}", saldo);
                     }
                     break;
             }
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }

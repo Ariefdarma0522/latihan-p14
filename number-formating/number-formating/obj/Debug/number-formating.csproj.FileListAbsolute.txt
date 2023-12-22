@@ -1,0 +1,6 @@
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\bin\Debug\number-formating.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\bin\Debug\number-formating.pdb
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\obj\Debug\number-formating.csproj.AssemblyReference.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\obj\Debug\number-formating.csproj.CoreCompileInputs.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\obj\Debug\number-formating.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\number-formating\number-formating\obj\Debug\number-formating.pdb
