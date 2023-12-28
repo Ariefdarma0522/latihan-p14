@@ -1,0 +1,6 @@
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\bin\Debug\Latihan-kalkulator-sederhana.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\bin\Debug\Latihan-kalkulator-sederhana.pdb
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\obj\Debug\Latihan-kalkulator-sederhana.csproj.AssemblyReference.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\obj\Debug\Latihan-kalkulator-sederhana.csproj.CoreCompileInputs.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\obj\Debug\Latihan-kalkulator-sederhana.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\Latihan-kalkulator-sederhana\Latihan-kalkulator-sederhana\obj\Debug\Latihan-kalkulator-sederhana.pdb
