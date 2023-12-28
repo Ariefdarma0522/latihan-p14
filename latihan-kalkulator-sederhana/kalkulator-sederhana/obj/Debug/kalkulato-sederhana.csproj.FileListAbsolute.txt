@@ -1,6 +1,0 @@
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\bin\Debug\kalkulato-sederhana.exe
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\bin\Debug\kalkulato-sederhana.pdb
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\obj\Debug\kalkulato-sederhana.csproj.AssemblyReference.cache
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\obj\Debug\kalkulato-sederhana.csproj.CoreCompileInputs.cache
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\obj\Debug\kalkulato-sederhana.exe
-D:\kuliah\Dasar-Pemrograman s1\latihan-P14\latihan-kalkulator-sederhana\kalkulator-sederhana\obj\Debug\kalkulato-sederhana.pdb

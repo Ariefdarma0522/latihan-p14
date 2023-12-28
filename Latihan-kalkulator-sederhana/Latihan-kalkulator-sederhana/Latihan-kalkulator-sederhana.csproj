@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B5BDE4D-4951-491A-A593-588D1FC14A3D}</ProjectGuid>
+    <ProjectGuid>{535696DA-54A8-4ECF-B659-F5A0213811B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>kalkulato_sederhana</RootNamespace>
-    <AssemblyName>kalkulato-sederhana</AssemblyName>
+    <RootNamespace>Latihan_kalkulator_sederhana</RootNamespace>
+    <AssemblyName>Latihan-kalkulator-sederhana</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace kalkulato_sederhana
+namespace Latihan_kalkulator_sederhana
 {
     internal class Program
     {
@@ -12,8 +12,9 @@ namespace kalkulato_sederhana
             // Masukkan operator (+,-,*,/) : *
             // Hasilnya 50
 
-            int pilihang;
-
+            char sum = '+', reduction = '-', multiple = '*', division = '/';
+            int pilihan;
+            float angka1, angka2, hasil = 0;
 
             // Untuk memilih operator yang akan dipakai
             Console.WriteLine("Pilih Operator");
@@ -22,20 +23,36 @@ namespace kalkulato_sederhana
             Console.WriteLine("3. Perkalian (*)");
             Console.WriteLine("4. Pembagian (/)");
 
-            Console.WriteLine("Masukkan pilihang anda : [1-4]");
-            pilihang = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Masukkan pilihang anda [(+), (-), (*), (/)]: ");
+            pilihan = Convert.ToChar(Console.ReadLine());
+
+            // Untuk memilih operasi pada kalkulator menggunakan symbol matematika (+), (-), (*), (/).
+            if (pilihan == sum)
+            {
+                pilihan = 1;
+            }
+            else if (pilihan == reduction)
+            {
+                pilihan = 2;
+            }
+            else if (pilihan == multiple)
+            {
+                pilihan = 3;
+            }
+            else if (pilihan == division)
+            {
+                pilihan = 4;
+            }
 
             // Untuk memasukkan angka pertama
             Console.WriteLine("Masukkan angka pertama : ");
-            double angka1 = Convert.ToDouble(Console.ReadLine());
+            angka1 = int.Parse(Console.ReadLine());
 
             // Untuk memasukkan angka kedua
             Console.WriteLine("Masukkan angka kedua : ");
-            double angka2 = Convert.ToDouble(Console.ReadLine());
+            angka2 = int.Parse(Console.ReadLine());
 
-            double hasil = 0.0;
-
-            switch (pilihang)
+            switch (pilihan)
             {
                 case 1:
                     hasil = angka1 + angka2;
