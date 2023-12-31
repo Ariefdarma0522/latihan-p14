@@ -12,7 +12,13 @@ namespace Latihan_kalkulator_sederhana
             // Masukkan operator (+,-,*,/) : *
             // Hasilnya 50
 
-            char sum = '+', reduction = '-', multiple = '*', division = '/';
+            char[] symbol = new char[4];
+            symbol[0] = '+';
+            symbol[1] = '-';
+            symbol[2] = '*';
+            symbol[3] = '/';
+
+            //char sum = '+', reduction = '-', multiple = '*', division = '/';
             int pilihan;
             float angka1, angka2, hasil = 0;
 
@@ -27,55 +33,62 @@ namespace Latihan_kalkulator_sederhana
             pilihan = Convert.ToChar(Console.ReadLine());
 
             // Untuk memilih operasi pada kalkulator menggunakan symbol matematika (+), (-), (*), (/).
-            if (pilihan == sum)
+            if (pilihan == symbol[0])
             {
                 pilihan = 1;
             }
-            else if (pilihan == reduction)
+            else if (pilihan == symbol[1])
             {
                 pilihan = 2;
             }
-            else if (pilihan == multiple)
+            else if (pilihan == symbol[2])
             {
                 pilihan = 3;
             }
-            else if (pilihan == division)
+            else if (pilihan == symbol[3])
             {
                 pilihan = 4;
             }
 
-            // Untuk memasukkan angka pertama
-            Console.WriteLine("Masukkan angka pertama : ");
-            angka1 = int.Parse(Console.ReadLine());
-
-            // Untuk memasukkan angka kedua
-            Console.WriteLine("Masukkan angka kedua : ");
-            angka2 = int.Parse(Console.ReadLine());
-
-            switch (pilihan)
+            if (pilihan < 5)
             {
-                case 1:
-                    hasil = angka1 + angka2;
-                    break;
-                case 2:
-                    hasil = angka1 - angka2;
-                    break;
-                case 3:
-                    hasil = angka1 * angka2;
-                    break;
-                case 4:
-                    if (angka2 != 0)
-                    {
-                        hasil = angka1 / angka2;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Error : Pilihan tidak dapat melakukan pembagian oleh nol");
-                    }
-                    break;
-            }
+                // Untuk memasukkan angka pertama
+                Console.Write("Masukkan angka pertama : ");
+                angka1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Hasil : {hasil:N}");
+                // Untuk memasukkan angka kedua
+                Console.Write("Masukkan angka kedua : ");
+                angka2 = int.Parse(Console.ReadLine());
+
+                switch (pilihan)
+                {
+                    case 1:
+                        hasil = angka1 + angka2;
+                        break;
+                    case 2:
+                        hasil = angka1 - angka2;
+                        break;
+                    case 3:
+                        hasil = angka1 * angka2;
+                        break;
+                    case 4:
+                        if (angka2 != 0)
+                        {
+                            hasil = angka1 / angka2;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Error : Pilihan tidak dapat melakukan pembagian oleh nol");
+                        }
+                        break;
+                }
+
+                Console.WriteLine($"Hasil : {hasil:N}");
+            }
+            else
+            {
+                Console.WriteLine("Error : Masukkan symbol operasi matematika yang telah disediakan!!!");
+            }
             Console.ReadKey();
 
         }
