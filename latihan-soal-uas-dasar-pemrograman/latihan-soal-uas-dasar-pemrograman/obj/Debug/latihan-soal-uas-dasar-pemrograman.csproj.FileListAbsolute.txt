@@ -1,0 +1,6 @@
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\bin\Debug\latihan-soal-uas-dasar-pemrograman.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\bin\Debug\latihan-soal-uas-dasar-pemrograman.pdb
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\obj\Debug\latihan-soal-uas-dasar-pemrograman.csproj.AssemblyReference.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\obj\Debug\latihan-soal-uas-dasar-pemrograman.csproj.CoreCompileInputs.cache
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\obj\Debug\latihan-soal-uas-dasar-pemrograman.exe
+D:\kuliah\Dasar-Pemrograman s1\latihan-p14\latihan-soal-uas-dasar-pemrograman\latihan-soal-uas-dasar-pemrograman\obj\Debug\latihan-soal-uas-dasar-pemrograman.pdb

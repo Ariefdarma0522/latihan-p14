@@ -17,8 +17,8 @@ namespace latihan_persiapan_ujian1_volume_balok
 
             string nama = null;
             char ulang;
-            double ukuran, panjang, lebar, jari2, tinggi, hasil;
-
+            double hasil;
+            float ukuran, panjang, lebar, jari2, tinggi;
 
             do
             {
@@ -100,7 +100,6 @@ namespace latihan_persiapan_ujian1_volume_balok
                 Console.WriteLine("Apakah anda ingin megulangi lagi ? [Y/T]");
                 ulang = Convert.ToChar(Console.ReadLine());
             } while ((ulang == 'Y') || (ulang == 'y'));
-
 
             Console.ReadKey();
         }

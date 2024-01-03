@@ -12,15 +12,16 @@ namespace Latihan_kalkulator_sederhana
             // Masukkan operator (+,-,*,/) : *
             // Hasilnya 50
 
+
+            //char sum = '+', reduction = '-', multiple = '*', division = '/';
+            int pilihan;
+            float angka1, angka2, hasil = 0;
+
             char[] symbol = new char[4];
             symbol[0] = '+';
             symbol[1] = '-';
             symbol[2] = '*';
             symbol[3] = '/';
-
-            //char sum = '+', reduction = '-', multiple = '*', division = '/';
-            int pilihan;
-            float angka1, angka2, hasil = 0;
 
             // Untuk memilih operator yang akan dipakai
             Console.WriteLine("Pilih Operator");
@@ -29,7 +30,7 @@ namespace Latihan_kalkulator_sederhana
             Console.WriteLine("3. Perkalian (*)");
             Console.WriteLine("4. Pembagian (/)");
 
-            Console.Write("Masukkan pilihang anda [(+), (-), (*), (/)]: ");
+            Console.Write("Masukkan pilihan anda [(+), (-), (*), (/)]: ");
             pilihan = Convert.ToChar(Console.ReadLine());
 
             // Untuk memilih operasi pada kalkulator menggunakan symbol matematika (+), (-), (*), (/).
@@ -78,19 +79,18 @@ namespace Latihan_kalkulator_sederhana
                         }
                         else
                         {
-                            Console.WriteLine("Error : Pilihan tidak dapat melakukan pembagian oleh nol");
+                            Console.WriteLine("Error : Tidak dapat melakukan pembagian dengan 0 (nol)!!!");
                         }
                         break;
                 }
-
                 Console.WriteLine($"Hasil : {hasil:N}");
             }
             else
             {
                 Console.WriteLine("Error : Masukkan symbol operasi matematika yang telah disediakan!!!");
             }
-            Console.ReadKey();
 
+            Console.ReadKey();
         }
     }
 }
