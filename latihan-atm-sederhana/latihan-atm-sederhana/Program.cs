@@ -9,18 +9,20 @@ namespace latihan_atm_sederhana
             // Buatlah aplikasi atm sederhana
 
             int pilihan = 0;
-            double saldo, penarikan, setoran;
+            float saldo, penarikan, setoran;
 
             Console.Write("Masukkan saldo akun anda : ");
             saldo = int.Parse(Console.ReadLine());
+            Console.Write("\n");
 
+            Console.WriteLine("Menu: ");
             Console.WriteLine("1. Periksa saldo");
             Console.WriteLine("2. Lakukan Setoran");
             Console.WriteLine("3. Lakukan Penarikan");
+            Console.Write('\n');
 
             Console.Write("Masukkan Pilihan anda : ");
             pilihan = int.Parse(Console.ReadLine());
-            Console.WriteLine("\n");
 
             switch (pilihan)
             {
@@ -38,15 +40,16 @@ namespace latihan_atm_sederhana
                     Console.Write("Masukkan jumlah yang akan ditarik : ");
                     penarikan = int.Parse(Console.ReadLine());
 
-                    if (penarikan > saldo)
+                    // If, saya gunakan utk mengecek supaya penarikan tidak melebihi dari saldo, jika melebihi akan keluar alert "saldo tidak cukup".
+                    if (saldo > penarikan)
                     {
-                        Console.WriteLine("Saldo anda tidak cukup!!!");
+                        saldo -= penarikan;
+                        Console.WriteLine($"Anda telah menarik saldo dari akun anda sebesar : {penarikan:c}");
+                        Console.WriteLine("Sisa saldo anda telah diperbarui : {0:C2}", saldo);
                     }
                     else
                     {
-                        saldo -= penarikan;
-                        Console.WriteLine($"Anda telah menarik saldo dari akun anda sebesari : {penarikan:c}");
-                        Console.WriteLine("Sisa saldo anda telah diperbaruai : {0:C2}", saldo);
+                        Console.WriteLine("Saldo anda tidak cukup!!!");
                     }
                     break;
             }
