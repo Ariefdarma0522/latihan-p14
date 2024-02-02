@@ -7,13 +7,6 @@ namespace latihan_p13_menghitung_luas_bangundatar
         static void Main(string[] args)
         {
             // Buatlah aplikasi untuk menghitung luas tanah / bangunan berbentuk
-            Console.WriteLine("APLIKASI LUAS TANAH : ");
-
-            Console.WriteLine(" 1. Bentuk Lingkaran");
-            Console.WriteLine(" 2. Bentuk Segitiga");
-            Console.WriteLine(" 3. Bentuk Trapesium");
-            Console.WriteLine(" 4. Bentuk Persegi panjang");
-            Console.WriteLine(" 5. Bentuk Jajargenjang");
 
             string nama;
             char ulang;
@@ -22,6 +15,14 @@ namespace latihan_p13_menghitung_luas_bangundatar
 
             do
             {
+                Console.WriteLine("APLIKASI LUAS TANAH : ");
+
+                Console.WriteLine(" 1. Bentuk Lingkaran");
+                Console.WriteLine(" 2. Bentuk Segitiga");
+                Console.WriteLine(" 3. Bentuk Trapesium");
+                Console.WriteLine(" 4. Bentuk Persegi panjang");
+                Console.WriteLine(" 5. Bentuk Jajargenjang");
+
                 Console.Write("Pilih Nomor = ");
                 luasTanah = int.Parse(Console.ReadLine());
 
@@ -80,6 +81,7 @@ namespace latihan_p13_menghitung_luas_bangundatar
                 }
                 Console.WriteLine("apakah anda ingin menghitung bentuk yang lain? [Y/T]");
                 ulang = Convert.ToChar(Console.ReadLine());
+                Console.Clear();
             } while ((ulang == 'Y') || (ulang == 'y'));
 
 

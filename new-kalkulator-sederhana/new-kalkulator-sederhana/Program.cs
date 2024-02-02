@@ -24,7 +24,7 @@ namespace new_kalkulator_sederhana
 
             // Untuk memilih operasi matematika pada kalkulator
             Console.Write("Masukkan operator(+,-,*,/) : ");
-            int pilihan = Convert.ToChar(Console.ReadLine());
+            char pilihan = Convert.ToChar(Console.ReadLine());
 
             switch (pilihan)
             {

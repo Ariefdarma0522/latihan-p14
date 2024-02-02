@@ -14,17 +14,12 @@ namespace latihan_soal_uas_dasar_pemrograman
 
             // jawaban no 1
             int[] angka = new int[10];
+
             //jawaban no 2
-            angka[0] = 1;
-            angka[1] = 2;
-            angka[2] = 3;
-            angka[3] = 4;
-            angka[4] = 5;
-            angka[5] = 6;
-            angka[6] = 7;
-            angka[7] = 8;
-            angka[8] = 9;
-            angka[9] = 10;
+            for (int i = 0; i < angka.Length; i++)
+            {
+                angka[i] = i;
+            }
 
             // jawaban no 3
             foreach (int elemen in angka)
